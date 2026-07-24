@@ -1,10 +1,13 @@
-# MyTelecom RAG Customer-Care Chatbot
+# MyTelecom Support Assistant
 
-A Retrieval-Augmented Generation chatbot that answers Tier-1 telecom support
-questions — connectivity, data, roaming, SIM/eSIM, billing, voice, device, and
-account — grounded **only** in curated knowledge (FAQ, resolved tickets, PDF
-guides). It never invents prices or policy, and escalates to 611 / the MyTelecom
-app when it can't answer confidently.
+**MyTelecom Support Assistant** — a retrieval-augmented chatbot that resolves
+Tier-1 telecom queries using *only* verified company knowledge (FAQ, resolved
+tickets, PDF guides), and honestly says "call 611" when it can't. Built to
+demonstrate grounded, trustworthy AI product design.
+
+It answers questions across connectivity, data, roaming, SIM/eSIM, billing,
+voice, device, and account — grounding every response in curated sources so it
+never invents prices or policy.
 
 Built per [`PRD.md`](PRD.md).
 
