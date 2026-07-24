@@ -1,0 +1,12 @@
+# Streamlit Community Cloud installs from this file.
+# Kept in sync with pyproject.toml's dependencies.
+langchain>=0.3.0
+langchain-community>=0.3.0
+langchain-chroma>=0.1.4
+langchain-huggingface>=0.1.0
+langchain-groq>=0.2.0
+sentence-transformers>=3.0.0
+chromadb>=0.5.0
+pypdf>=4.0.0
+streamlit>=1.36.0
+python-dotenv>=1.0.0
