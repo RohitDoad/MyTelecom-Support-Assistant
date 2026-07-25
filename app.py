@@ -144,8 +144,14 @@ def main() -> None:
                 docs = retrieve(question)
                 context = format_context(docs)
                 sources = group_sources(docs)
+                # Escape '$' so Streamlit's Markdown doesn't read price pairs
+                # (e.g. "$15 ... $105") as LaTeX math and render them in a
+                # serif math font.
                 answer = st.write_stream(
-                    chain.stream({"question": question, "context": context})
+                    token.replace("$", "\\$")
+                    for token in chain.stream(
+                        {"question": question, "context": context}
+                    )
                 )
             except Exception as exc:  # surface API/config errors gracefully
                 answer = (
