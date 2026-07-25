@@ -6,6 +6,9 @@ langchain-chroma>=0.1.4
 langchain-huggingface>=0.1.0
 langchain-groq>=0.2.0
 sentence-transformers>=3.0.0
+# transformers >=5 eagerly imports torchvision on load; include it so the
+# embedding model imports cleanly in the cloud environment.
+torchvision>=0.18.0
 chromadb>=0.5.0
 pypdf>=4.0.0
 streamlit>=1.36.0
