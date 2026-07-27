@@ -1,8 +1,5 @@
 # Product Requirements Document — RAG Telecom Customer Care Chatbot
 
-**Date:** 2026-06-10  
-**Author:** Dhaval Patel
-
 ---
 
 ## 1. Overview
