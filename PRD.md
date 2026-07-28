@@ -1,5 +1,7 @@
 # Product Requirements Document — RAG Telecom Customer Care Chatbot
 
+*Developed with guidance from Dhaval Patel.*
+
 ---
 
 ## 1. Overview

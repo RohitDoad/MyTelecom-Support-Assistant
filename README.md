@@ -93,3 +93,7 @@ python main.py        # type 'quit' to exit
 Add a new knowledge source by writing an `ingest_<source>.py` (mirroring an
 existing one) and registering its collection name in `COLLECTIONS` in
 `retriever.py`.
+
+## Acknowledgements
+
+Thanks to Dhaval Patel for his guidance and mentorship throughout this project.
